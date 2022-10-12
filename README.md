@@ -15,6 +15,10 @@ cordova.plugins.fileOpener2.open(
 );
 ```
 
+## Change in this fork
+
+Remove android.permission.REQUEST_INSTALL_PACKAGES to avoid issue when submitting app on play store.
+
 ## Installation
 
 ```shell
@@ -209,5 +213,3 @@ It is not always possible to open a file from the SD Card using this plugin on A
 
 
 ---
-
-
